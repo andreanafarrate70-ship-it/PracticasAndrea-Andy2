@@ -1,0 +1,36 @@
+/* DOCUMENTO CSS */
+
+* {margin: 0;}
+
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #aff9e1;
+    text-align: center;}
+
+h1 { text-align: center; 
+     font-size: 2em;
+     background-color: #5ffbc7; 
+     padding: 8px 0px; }
+
+h2 { text-decoration: underline;
+     padding-bottom: 8px; 
+    font-size: 1.2em; }
+
+header.cabecera { background-color: #00da91;
+                padding: 16px 0px; 
+                margin-bottom: 16px; }
+
+.temas { padding: 16px 0px; 
+         width: 70%; 
+         margin: 0px auto; 
+         border-bottom: #00da91 solid 4px; }
+
+.temas ol, .temas ul { padding-bottom: 16px;}
+
+.temas p { line-height: 180%; 
+            padding-bottom: 24px; }
+
+footer { text-align: center;
+         background-color: #00da91;
+         margin-top: 24px;
+         color: whitesmoke;
+         padding: 16px 0px; }

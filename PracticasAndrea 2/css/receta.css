@@ -1,0 +1,71 @@
+* { margin: 0;
+    padding: 0; }
+
+body {font-family: Iosevka Charon, san-serif;
+      background-color: #e3d6cc;}
+
+h2 { text-decoration: dotted;
+     font-size: 1.5em; 
+     padding: 16px;
+     margin-bottom: 0.5%; 
+     text-align: center;
+     color: #75553e;}
+
+header.cabecera { padding: 16px 0px; 
+                  margin-bottom: 4%; 
+                  border-bottom: #a87e60 solid 4px;}
+
+h1 { text-align: center; 
+     color: #fff6a0;
+     font-size: 2em;
+     background-color: #a87e60; 
+     padding: 8px 0px; 
+     font-size: 2em; }
+
+section.items1 { width: 80%; 
+                padding: 16px;
+                margin: 0px auto; 
+                display: flex; 
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around; 
+                min-height: 1px; 
+                align-items: flex-start; }
+
+.container1 { width: 20%;
+            min-height: 1px;
+            text-align: left; }
+             
+h3 { margin-inline-start: 3%;
+     color: #75553e;
+     border-bottom: #75553e;
+     padding: 16px 0px; 
+     text-decoration: dotted; }
+
+div.container3 { margin-inline-start: 3%; }
+div.container2 { border-radius: 10px; }
+
+.cards { width: 80%; 
+                padding: 6px;
+                margin: auto; 
+                display: flex; 
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                min-height: 1px; 
+                border-radius: 8px; 
+                align-items: center;
+                box-sizing: border-box;
+                margin: 20px 20px; }
+
+.video iframe {width: 100%;
+               height: 300px;}
+.video { width: 50%;
+         min-height: 1px; 
+         margin: auto;
+         margin-bottom: 3%;}
+
+footer { background-color: #a87e60; 
+         color: #fff6a0;
+         font-size: 1em;
+         text-align: center; }
